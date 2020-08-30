@@ -41,7 +41,6 @@ layout: default
             <ul>
                 {% assign href = site.posts | where: 'name', i.name | first %}
                 <li><b>{{i.date}}</b>: <a href="{{href.url | absolute_url }}">[{{i.title}}]</a><br> <b>===></b> {{i.msg}}</li>
-                }
             </ul>
         {% endfor %}
         </div>
