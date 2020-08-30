@@ -49,8 +49,8 @@ layout: default
     <div class="row">
         <h2><code>$~ who am i</code></h2>
         <p> Hi.
-        I'm a security researcher hoping to make it big in the field. This is a collection of notes and posts that I have collected over the years relating to my work, as I unravel my interests and explore the (un)knowns.<br>
-        CS is great. There is lots of stuff to do and not a lot required to get started. You might find posts on ML, Compilers and some other doo-dah that ignited my curiosity but time constraints did not allow me to continue.
+        I'm a security researcher hoping to make it big in the field. This is a collection of notes and posts that I have cwritten over time relating to my work, as I unravel my interests and explore the (un)knowns.<br>
+        CS is great. There is lots of stuff to do and not a lot required to get started. So you might find posts on ML, Compilers and some other doo-dah that ignited my curiosity :P
         </p>
         <blockquote><h3>Have issues ?</h3>
         <p>Feel free to get in touch and I'll do my best to respond.</p></blockquote>
