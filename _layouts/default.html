@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    {% include head.html %}
+    <title>{{page.title}} | {{site.title}}</title>
+    {% for i in page.css %}
+    <link rel="stylesheet" href="{{i}}">
+    {% endfor %}
+    {% for i in page.js %}
+    <script src="{{i}}"></script>
+    {% endfor %}
+</head>
+
+<body>
+    {% include navbar.html %}
+    <div class="main container">
+        {{content}}
+    </div>
+    <div class="spacer"></div>
+    {% include footer.html %}
+</body>
+
+</html>

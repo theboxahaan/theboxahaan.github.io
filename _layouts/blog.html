@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="fixbar four columns">
+&nbsp;    
+</div>
+<div class="fixbar-front">
+    <div class="spacer"></div>
+    <div class="header row">
+        <h1 class="header">the<b>box</b></h1>
+        <h3 class="header-small">AHAAN</h3>
+    </div>
+    <div class="row">
+        <img class="profile-pic" src="/assets/images/haddock.jpg">
+    </div>
+    <div class="spacer"></div>
+    <div class="row">
+        <h2>{{page.project}}</h2>
+    </div>
+    <!-- <div class="spacer"></div> -->
+    <div class="contents row">
+        <ul>
+            {% assign j = site.posts | where: "project", page.project %}
+            {% for i in j %}
+            <li><a href="{{i.url | absolute_url}}">{{i.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    
+    <a href="https://github.com/{{page.proj_url}}">
+        <div class="foot row">
+            <span>View The Project on GitHub</span>
+            <small><span class="gituser">{{page.proj_url}}</span></small>
+        </div>
+    </a>
+
+    <!-- <div class="row">
+        <h3 class="header-small">FORK! FOLLOW! FAULT! ∞</h3>
+    </div>
+     -->
+</div>
+<div class="material eight columns">
+    <h1>{{page.title}}</h1>
+    <span class="date">{{page.date | date: "%B %d, %Y"}}</span>
+    {{content}}
+</div>
