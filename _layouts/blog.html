@@ -21,19 +21,21 @@ layout: default
     <!-- <div class="spacer"></div> -->
     <div class="contents row">
         <ul>
-            {% assign j = site.posts | where: "project", page.project %}
+            {% assign j = site.posts| where: "project", page.project | sort: "order" %}
             {% for i in j %}
             <li><a href="{{i.url | absolute_url}}">{{i.title}}</a></li>
             {% endfor %}
         </ul>
     </div>
     
+    {% if {{page.proj_url }} %}
     <a href="https://github.com/{{page.proj_url}}">
         <div class="foot row">
             <span>View The Project on GitHub</span>
             <small><span class="gituser">{{page.proj_url}}</span></small>
         </div>
     </a>
+    {% endif %}
 
     <!-- <div class="row">
         <h3 class="header-small">FORK! FOLLOW! FAULT! ∞</h3>

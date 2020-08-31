@@ -1,4 +1,9 @@
-- date: 2020-12-13 2230hrs
+- date: 2020-08-31 1755hrs
+  name: bitcoin-attacks
+  title: A Compilation of Attacks on Bitcoin
+  msg: These were a part of the literary survey I did for my research internship. Some of them are pretty cool ;) Overall they make an insightful read.
+
+- date: 2020-08-14 2230hrs
   name: keccak
   title: Brief Experiment With The Keccak-milp Model 
   msg: Posted Experiment With Keccak MILP
