@@ -15,8 +15,9 @@ The cryptocurrency equivalent of spending the same asset twice.
 
 ### Finney Attack
 
-Finney Attack is a type of double spend attack. It is named after *Hal Finney* who described it in the below comment.
-https://bitcointalk.org/index.php?topic=3441.msg48384#msg48384
+Finney Attack is a type of double spend attack. It is named after *Hal Finney* who described it in the comment below.
+
+[https://bitcointalk.org/index.php?topic=3441.msg48384#msg48384](https://bitcointalk.org/index.php?topic=3441.msg48384#msg48384)
 
 **Attack Conditions**
 
@@ -37,7 +38,7 @@ https://bitcointalk.org/index.php?topic=3441.msg48384#msg48384
 
 
 
-![Timeline Of Finney Attack](https://paper-attachments.dropbox.com/s_14C9898DE368CF2902814BF82BEA010385F0D71F6A45D37EAE6CC171CCD299C9_1558080074592_nonce.png)
+<img src="https://paper-attachments.dropbox.com/s_14C9898DE368CF2902814BF82BEA010385F0D71F6A45D37EAE6CC171CCD299C9_1558080074592_nonce.png" width="80%">
 
 
 a. If another block containing $$Tx_2$$  is mined within time t, then attack will fail and the attacker will lose the ***Block Reward*** 

@@ -110,6 +110,7 @@ blockquote > p{
     max-width: 400px;
     padding-left: 2em;
     flex-wrap: wrap;
+    visibility: visible;
     /* background: #eeeeee; */
     /* border: 1px solid #eee; */
    
@@ -175,7 +176,7 @@ a:hover{
     margin-bottom: 1em;
     font-family: monospace;
     width: fit-content;
-    padding: 0.4em;
+    padding: 0.2em;
     background: #4ef9c0;
     border-radius: 0.4em;
     color: black;
@@ -247,4 +248,18 @@ a{
 
 #gitlogo{
     text-align: end;
+}
+
+@media (max-width:550px){
+
+    .fixbar-front{
+        /* visibility: hidden; */
+        position: relative;
+    }
+
+    .profile-pic{
+        /* visibility: hidden; */
+        width: 30%;
+    }
+    
 }
