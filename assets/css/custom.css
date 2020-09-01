@@ -261,5 +261,13 @@ a{
         /* visibility: hidden; */
         width: 30%;
     }
+
+    #gitlogo{
+        text-align: start;
+    }
+
+    .github-button{
+        display: none;
+    }
     
 }
