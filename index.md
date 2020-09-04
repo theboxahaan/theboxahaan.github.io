@@ -18,11 +18,15 @@ layout: default
         <img class="profile-pic" src="/assets/images/haddock.jpg">
     </div>
     <div class="spacer"></div>
+    <!-- <div class="row">
+        <code>ahaand@iitbhilai.ac.in</code>
+    </div>
+    <div class="spacer"></div> -->
     <div class="contents row">
     <h3>Affiliations</h3>
     <ul>
         <li>IIT Bhilai</li>
-        <li>de.ci.phe.red LAB</li>
+        <li><a href="http://de.ci.phe.red/">de.ci.phe.red LAB</a></li>
     </ul>
     </div>
     <!-- <div class="spacer"></div> -->
@@ -40,7 +44,7 @@ layout: default
         {% for i in site.data.updates %}
             <ul>
                 {% assign href = site.posts | where: 'name', i.name | first %}
-                <li><b>{{i.date}}</b>: <a href="{{href.url | absolute_url }}">[{{i.title}}]</a><br> <b>===></b> {{i.msg}}</li>
+                <li><span class="update-date">{{i.date}}</span>: <a href="{{href.url | absolute_url }}">[{{i.title}}]</a><br> <b>===></b> {{i.msg}}</li>
             </ul>
         {% endfor %}
         </div>
@@ -53,7 +57,7 @@ layout: default
         CS is great. There is lots of stuff to do and not a lot required to get started. So you might find posts on ML, Compilers and some other doo-dah that ignited my curiosity :P
         </p>
         <blockquote><h3>Have issues ?</h3>
-        <p>Feel free to get in touch and I'll do my best to respond.</p></blockquote>
+        <p>Feel free to get in touch. Raise an issue on <b>GitHub</b> and I'll do my best to respond.</p></blockquote>
     </div>
     <!-- <div class="spacer"></div> -->
     <div class="row">

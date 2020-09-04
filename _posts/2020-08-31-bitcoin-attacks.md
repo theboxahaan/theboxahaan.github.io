@@ -9,6 +9,10 @@ order: 1
 ---
 These attacks were a part of the literary survey I did for my research internship. Some of them are pretty cool ;) Overall they make a very interesting and insightful read. Due to sheer volume, I have split them into a four part post. Check em' out !!!
 
+<img src="https://e5ce463uma323hyvrr4xumqs-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/dilbert_blockchain.png" width="100%">
+
+> Dilbert by Scott Adams ---- But not exactly 
+
 ## Double Spend Attacks
 
 The cryptocurrency equivalent of spending the same asset twice.
