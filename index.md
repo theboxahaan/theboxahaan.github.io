@@ -39,14 +39,15 @@ layout: default
 </div>
 <div class="material eight columns">
     <div class="row">
-        <h2>Updates</h2>
+        <h2>updates</h2>
         <div class="updates">
+        <ul>
+            <li>j0llyr0ger@thebox ~ % _ </li>
         {% for i in site.data.updates %}
-            <ul>
                 {% assign href = site.posts | where: 'name', i.name | first %}
-                <li><span class="update-date">{{i.date}}</span>: <a href="{{href.url | absolute_url }}">[{{i.title}}]</a><br> <b>===></b> {{i.msg}}</li>
-            </ul>
+                <li><span class="update-date">{{i.date}}</span>: <a href="{{href.url | absolute_url }}">[{{i.title}}]</a><br> <b>> </b> {{i.msg}}</li>
         {% endfor %}
+        </ul>
         </div>
     </div>
     <div class="spacer"></div>
@@ -59,7 +60,7 @@ layout: default
         <blockquote><h3>Have issues ?</h3>
         <p>Feel free to get in touch. Raise an issue on <b>GitHub</b> and I'll do my best to respond.</p></blockquote>
     </div>
-    <!-- <div class="spacer"></div> -->
+    <div class="spacer-small"></div>
     <div class="row">
         <h2>what else</h2>
         <p>If you are a <b>John Petrucci</b> fan by any chance ♥<br>

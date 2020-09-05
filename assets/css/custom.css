@@ -87,6 +87,9 @@ blockquote > p{
 .spacer-huge{
     height: 6em;
 }
+.spacer-small{
+    height: 1em;
+}
 
 .fixbar{
     /* height: 100vh; */
