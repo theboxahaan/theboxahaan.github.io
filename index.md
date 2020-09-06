@@ -42,7 +42,7 @@ layout: default
         <h2>updates</h2>
         <div class="updates">
         <ul>
-            <li>j0llyr0ger@thebox ~ % _ </li>
+            <li>j0llyr0ger@thebox ~ % recent updates </li>
         {% for i in site.data.updates %}
                 {% assign href = site.posts | where: 'name', i.name | first %}
                 <li><span class="update-date">{{i.date}}</span>: <a href="{{href.url | absolute_url }}">[{{i.title}}]</a><br> <b>> </b> {{i.msg}}</li>
