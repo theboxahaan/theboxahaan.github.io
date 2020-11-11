@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    {% include head.html %}
+    {% include header.html %}
     <title>{{page.title}} | {{site.title}}</title>
     {% for i in page.css %}
     <link rel="stylesheet" href="{{i}}">
@@ -11,11 +11,10 @@
 </head>
 
 <body>
-    {% include navbar.html %}
     <div class="main container">
         {{content}}
     </div>
-    <div class="spacer"></div>
+    <div class="spacer-small"></div>
     {% include footer.html %}
 </body>
 
