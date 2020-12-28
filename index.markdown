@@ -54,7 +54,7 @@ layout: default
     CS is great. There is lots of stuff to do and not a lot required to get started. So you might find posts on ML, Compilers and some other doo-dah that ignited my curiosity :P
     </p>
     <blockquote>
-        Have issues ? Feel free to raise one on Github and I'll do my best to respond.
+        Have <a href="https://github.com/theboxahaan/theboxahaan.github.io/issues">issues</a> ? Feel free to raise one on Github and I'll do my best to respond.
     </blockquote>
     If you are a John Petrucci fan by any chance ♥ <br>
     I am also into basketball, guitar (...duh) and a bunch of other stuff. I enjoy playing third person triple A titles. Arkham Knight anyone ;) and dabble in web design from time to time.
@@ -68,12 +68,13 @@ layout: default
     <hr>
     <ul class="pub-list">
         <li><span class="pub-name">[Under Review] Analysis Of OTT Music Streaming Services In India</span><br><span class="pub-author"><b>Ahaan Dabholkar</b> , Sourya Kakarla, Dhiman Saha</span></li>
-        <li><a href="https://link.springer.com/chapter/10.1007/978-981-15-0871-4_24"><span class="pub-name">Ripping The Fabric: Attacks and Mitigations on Hyperledger Fabric</span></a><br><span class="pub-author"><b>Ahaan Dabholkar</b> , Vishal Saraswat</span> ▲ <span class="pub-venue">ATIS 2019: International Conference On Applications and Techniques in Information Security, <i>pp 300-311</i></span></li>
+        <li><a href="https://link.springer.com/chapter/10.1007/978-981-15-0871-4_24"><span class="pub-name">Ripping The Fabric: Attacks and Mitigations on Hyperledger Fabric</span></a><br><span class="pub-author"><b>Ahaan Dabholkar</b> , Vishal Saraswat</span> ▲ <span class="pub-venue">ATIS 2019: International Conference On Applications and Techniques in Information Security</span></li>
     </ul>
 </div>
 
-<!-- <div class="activity row">
-    <div class="five columns">
+<div class="spacer-small"></div>
+<div class="activity row">
+    <div class="six columns">
     <h4>current projects</h4>
     <hr>
     <ul>
@@ -83,10 +84,10 @@ layout: default
         <li><code>emu</code> NES Emulation Stuff :P</li>
     </ul>
     </div>
-    <div class="seven columns">
-        <h4>The educ8 Project</h4>
+    <div class="six columns">
+        <h4>The <code>banter</code> Project</h4>
         <hr>
-        The educ8 project (named temporarily) is <i>supposed to be</i> a completely crowdsourced, open problem solving platform for students of competetive examinations, olympiads etc. The goal of the project is to provide free and open access to a repository of problems and solutions in Physics, Mathematics and Chemistry in order to aid preparations.<br>
-        Exam preparation in India is being monopolised, and this is not good. While I am cognizant of the role that these monopolies play, they are going about it the wrong way.
+        The <code>banter</code> project (named temporarily) is <i>supposed to be</i> a completely crowdsourced, open problem solving platform for students of competetive examinations, olympiads etc. The goal of the project is to provide free and open access to a repository of problems and solutions.
     </div>
-</div> -->
+</div>
+

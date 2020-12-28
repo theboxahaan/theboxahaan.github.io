@@ -1,9 +1,10 @@
 <div class="row">
 <ul class="activity-list">
-{% for post in site.posts %}
+{% for post in site.posts limit: 4 %}
     <li><span class="activity-date">&para;<a href="{{post.url}}">[{{post.date | date: "%Y-%m-%d" }}] ~> [{{post.title}}]</a></span>
     {{post.excerpt}}
     </li>
 {% endfor %}
+<a class="button button-primary" href="#">More</a>
 </ul>
 </div>
