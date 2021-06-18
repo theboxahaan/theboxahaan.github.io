@@ -67,7 +67,8 @@ layout: default
     <h4>previous work</h4>
     <hr>
     <ul class="pub-list">
-        <li><span class="pub-name">[Under Review] Analysis Of OTT Music Streaming Services In India</span><br><span class="pub-author"><b>Ahaan Dabholkar</b> , Sourya Kakarla, Dhiman Saha</span></li>
+        <!-- <li><span class="pub-name">[Under Review] Analysis Of OTT Music Streaming Services In India</span><br><span class="pub-author"><b>Ahaan Dabholkar</b> , Sourya Kakarla, Dhiman Saha</span></li> -->
+        <li><a href="https://arxiv.org/abs/2103.16360"><span class="pub-name">Looney Tunes: Exposing the Lack of DRM Protection in Indian Music Streaming Services</span></a><br><span class="pub-author"><b>Ahaan Dabholkar</b> , Sourya Kakarla, Dhiman Saha</span> ▲ <span class="pub-venue">arxiv.org [PREPRINT]</span></li>
         <li><a href="https://link.springer.com/chapter/10.1007/978-981-15-0871-4_24"><span class="pub-name">Ripping The Fabric: Attacks and Mitigations on Hyperledger Fabric</span></a><br><span class="pub-author"><b>Ahaan Dabholkar</b> , Vishal Saraswat</span> ▲ <span class="pub-venue">ATIS 2019: International Conference On Applications and Techniques in Information Security</span></li>
     </ul>
 </div>
